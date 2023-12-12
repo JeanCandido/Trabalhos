@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mini loja virtual</title>
+    </head>
+    <body>
+        <div id="produtos">
+
+        </div>
+
+        <div id="carrinho">
+
+        </div>
+
+        <script>
+            const items = [
+                {
+                    id: 0,
+                    nome: 'camiseta',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 1,
+                    nome: 'short',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+                {
+                    id: 2,
+                    nome: 'sapato',
+                    img: 'image.jpg',
+                    quantidade: 0
+                },
+            ]
+
+            inicializarLoja = () => {
+                var conteinerProdutos = document.getElementById('produtos');
+                items.map((val)=>{
+                    conteinerProdutos.innerHTML+=                     
+                })
+            }
+            
+            inicializarLoja();
+
+        </script>
+
+    </body>
+</html>
