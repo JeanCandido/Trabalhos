@@ -24,9 +24,11 @@ header{
 }
 
 #menu-icon {
-    display: block;
     font-size: 30px;
     cursor: pointer;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
 }
 
 #menu {
