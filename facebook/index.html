@@ -6,14 +6,30 @@
     <title>Facebook - entre ou cadastre-se</title>
     <style>
         body{
+            display: flex;
+            flex-direction: column;
             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
             background-color: #f0f2f5;
             margin: 0px;
+            min-height: 100vh;
         }
 
+        main{
+            text-align: center;
+            background-color: #f0f2f5;
+            margin-top: 100px;
+            flex: 1;
+        }
+
+        .box{
+            display: inline-block;
+            margin: 5px;
+            vertical-align: middle;
+        }
+        
         div#cabeçalho{ 
-            margin: 10px auto;
-            height: 187px;
+            margin-right: 80px;
+            height: 315px;
             width: 400px;
         }
 
@@ -24,52 +40,110 @@
         }
 
         div#cabeçalho > h2{
-            font-size: 15px;
+            font-size: x-large;
             text-align: center;
         }
 
         div#form{
             background-color: white;
-            text-align: center;    
+            text-align: center;
             margin: 0 auto;
             height: 315px;
-            width: 90vw;
+            width: 350px;
             min-width: 320px;
             border-radius: 7px;
             padding: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.301);
         }
         input.dados{
-            border: none;
-            background-color: rgba(211, 211, 211, 0.3);
+            
+            background-color: white;
+            border: 1px solid #8A8D91;
+            color: #8A8D91;
             width: 90%;
             padding: 10px;
             font-size: large;
             border-radius: 5px;
         }
+
+        input.dados:focus{
+            outline: none;
+            background-color: white;
+            border: 2px solid #0077cc;
+            color: #0077cc;
+            width: 90%;
+            padding: 10px;
+            font-size: large;
+            border-radius: 5px;
+        }
+
         #ienviar{
             border: none;
             background-color: #0867ffa7;
+            color: white;
+            width: 100%;
             padding: 10px;
             font-size: large;
             font-weight: bold;
             border-radius: 5px;
         }
-        a{
+        main a{
             margin: 10px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+
+        main a:visited{
+            color: #0077cc;
+        }
+
+        main a:hover{
+            text-decoration: underline;
+        }
+
+        #iconta{
+            border: none;
+            background-color: #36A420;
+            color: white;
+            padding: 10px;
+            font-size: large;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        footer{
+            background-color: white;
+
+            color: #8A8D91;
+            font-size: small;
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        footer a{
+            text-decoration: none;
+            color: #8A8D91;
+        }
+
+        footer a:visited{
+            color: #8A8D91;
+        }
+
+        footer a:hover{
+            text-decoration: underline;
         }
 
     </style>
 </head>
 <body>
-    <header>
-        <div id="cabeçalho">
+    <main>
+        <div class="box" id="cabeçalho">
             <h1>facebook</h1>
             <h2>O facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida</h2>
         </div>
-    </header>
-    <main>
-        <div id="form">
+        <div class="box" id="form">
             <div>
                 <form action="cadastro.php">
                     <p><input type="text" id="iemail" class="dados" name="email" placeholder="Email ou Telefone" required></p>
@@ -78,12 +152,19 @@
                 </form>
             </div>
             <div>
-                <a href="#">Esqueceu a senha?</a>
+                <p><a href="#">Esqueceu a senha?</a></p>
+            </div>
+            <hr>
+            <div>
+                <input type="submit" value="Criar Nova Conta" id="iconta">
             </div>
         </div>
     </main>
     <footer>
-
+        <a href="#">Português (Brasil)</a> <a href="#">English (US)</a> <a href="#">Español</a> <a href="#">Français (France)</a> <a href="#">Italiano</a> <a href="#">Deutsch</a> <a href="#">العربية </a><a href="#">हिन्दी</a> <a href="#">中文(简体)</a> <a href="#">日本語</a>
+        <hr>
+        Cadastre-seEntrarMessengerFacebook LiteVídeoLocaisJogosMarketplaceMeta PayLoja da MetaMeta QuestInstagramThreadsCampanhas de arrecadação de fundosServiçosCentral de Informações de VotaçãoPolítica de PrivacidadeCentral de PrivacidadeGruposSobreCriar anúncioCriar PáginaDesenvolvedoresCarreirasCookiesEscolhas para anúnciosTermosAjudaCarregamento de contatos e não usuáriosConfiguraçõesRegistro de atividades
+        Meta © 2023
     </footer>
 </body>
 </html>
