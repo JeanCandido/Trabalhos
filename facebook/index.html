@@ -146,8 +146,11 @@
             div#cabeçalho,div#form {
                 width: 20%;
                 margin: 40px;
-                min-width: 300px;
+                min-width: 200px;
                 float: none; /* Remover a flutuação */
+            }
+            div#cabeçalho{
+                font-size: 0.5em;
             }
         }
 
@@ -162,8 +165,8 @@
         <div class="box" id="form">
             <div>
                 <form action="cadastro.php">
-                    <p><input type="text" id="iemail" class="dados" name="email" placeholder="Email ou Telefone" required></p>
-                    <p><input type="text" id="ikey" class="dados" name="key" placeholder="Senha" required></p>
+                    <p><input type="email" id="iemail" class="dados" name="email" placeholder="Email ou Telefone" required></p>
+                    <p><input type="password" id="ikey" class="dados" name="key" placeholder="Senha" required></p>
                     <input type="submit" value="Enviar" id="ienviar">
                 </form>
             </div>
