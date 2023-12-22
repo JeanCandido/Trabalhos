@@ -139,7 +139,7 @@ header > a:hover{
     }
 
     .grid-serv{
-        top: 220px;
+        top: 259px;
         grid-template-columns: repeat(2, 1fr);
 
     }
