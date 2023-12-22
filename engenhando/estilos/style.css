@@ -47,6 +47,7 @@ header > a:hover{
 .button{
     display: inline;
     margin: 20px;
+
 }
 
 #iser{
@@ -55,6 +56,7 @@ header > a:hover{
     background-color: #003777;
     color: white;
     padding: 10px;
+    margin-top: 20px;
     border: none;
     border-radius: 20px;
 }
@@ -65,6 +67,7 @@ header > a:hover{
     background-color: #01C3BE;
     color: white;
     padding: 10px;
+    margin-top: 20px;
     border: none;
     border-radius: 20px;
 }
