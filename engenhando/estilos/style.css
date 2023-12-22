@@ -35,6 +35,7 @@ header > img{
 
 header > a{
     color: white;
+    font-weight: 900;
     text-decoration: none;
     padding: 5px;
 }
