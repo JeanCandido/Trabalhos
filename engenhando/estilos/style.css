@@ -92,4 +92,26 @@ header > a:hover{
     .button{
         display: block;
     }
+
+    #iser{
+        position: relative;
+        left: 0;
+        background-color: #003777;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    #iorc{
+        position: relative;
+        right: 0;
+        background-color: #01C3BE;
+        color: white;
+        padding: 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 20px;
+    }
 }
