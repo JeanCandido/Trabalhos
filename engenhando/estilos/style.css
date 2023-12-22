@@ -7,13 +7,15 @@
 
 .container {
     position: relative;
-    width: 100%;
+    width: 95vw;
     max-width: 800px; /* Defina a largura máxima da div conforme necessário */
     margin: 0 auto; /* Centraliza a div na página */
+    padding: 30px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header{
@@ -21,12 +23,12 @@ header{
     text-align: center;
     margin: 20px;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 header > img{
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 40px;
     width: 171px;
 }
@@ -40,4 +42,51 @@ header > a{
 header > a:hover{
     color: #01C3BE;
     text-decoration: underline;
+}
+
+.button{
+    display: inline;
+    margin: 20px;
+}
+
+#iser{
+    position: absolute;
+    left: 20px;
+    background-color: #003777;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#iorc{
+    position: absolute;
+    right: 20px;
+    background-color: #01C3BE;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+    header img{
+        top: 30px;
+        left: 30px;
+    }
+
+    header a{
+        display: none;
+    }
+
+    .container{
+        text-align: center;
+        font-size: .8em;
+        margin: auto;
+        padding: 0;
+    }
+
+    .button{
+        display: block;
+    }
 }
