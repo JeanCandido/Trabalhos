@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Defina a largura máxima da div conforme necessário */
+    margin: 0 auto; /* Centraliza a div na página */
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #003777;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+header > img{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    width: 171px;
+}
+
+header > a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header > a:hover{
+    color: #01C3BE;
+    text-decoration: underline;
+}
