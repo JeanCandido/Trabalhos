@@ -72,6 +72,7 @@ header > a:hover{
     border: none;
     border-radius: 20px;
 }
+
 .grid-serv{
     display: grid;
     position: absolute;
@@ -86,10 +87,10 @@ header > a:hover{
     text-align: center;
     color: #003777;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 150%;
     border: 1px solid rgba(0, 0, 0, 0.235);
     border-radius: 10px;
-    height: 20vh;
+    height: 30vh;
 }
 
 .servico:hover{
@@ -150,4 +151,13 @@ header > a:hover{
     .servico:nth-child(4) { grid-area: 2 / 1 / 3 / 2; }
     .servico:nth-child(5) { grid-area: 3 / 1 / 3 / 2; }
     .servico:nth-child(6) { grid-area: 3 / 2 / 3 / 2; }
+}
+
+@media (max-width: 400px){
+    .grid-serv{
+        display: block;
+    }
+    .servico{
+        margin: 10px;
+    }
 }
