@@ -68,6 +68,27 @@ main p{
     padding: 10px;
 }
 
+.button{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#iorc{
+    margin: auto;
+    background-color: #01C3BE;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+#iorc:hover{
+    translate: -1px -1px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.448);
+}
+
 @media (max-width: 800px) {
     header img{
         top: 30px;
