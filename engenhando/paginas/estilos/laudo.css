@@ -45,6 +45,11 @@ main{
     max-width: 800px;
 }
 
+div#img-demo > img{
+    width: 100%;
+    border-radius: 20px;
+}
+
 main h1{
     text-align: center;
     color: #003777;
@@ -99,7 +104,7 @@ div#whatsapp{
     right: 20px;
 }
 
-div#whatsapp img{
+div#whatsapp > img{
     width: 100%;
 }
 

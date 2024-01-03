@@ -96,6 +96,7 @@ div#qs{
     border: 1px solid rgba(0, 0, 0, 0.235);
     border-radius: 10px;
     height: 30vh;
+    padding: 10px;
 }
 
 .servico:hover{
