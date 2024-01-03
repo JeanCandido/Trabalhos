@@ -151,11 +151,13 @@ div#qs{
     .servico:nth-child(6) { grid-area: 3 / 2 / 3 / 2; }
 }
 
-@media (max-width: 400px){
+@media (max-width: 630px){
     .grid-serv{
         display: block;
+        margin: auto;
     }
     .servico{
         margin: 10px;
+
     }
 }
