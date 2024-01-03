@@ -50,12 +50,14 @@ main h1{
     color: #003777;
     font-weight: 900;
     font-size: 2em;
+    margin: 0px 0px 10px 0px;
 }
 
 main h2{
     color: #0e4685;
     font-weight: 800;
     font-size: 1.6em;
+    margin: 0px 0px 10px 0px;
 }
 
 main h3{
