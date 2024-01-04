@@ -97,10 +97,12 @@ div#qs{
     border-radius: 10px;
     height: 30vh;
     padding: 10px;
+    
 }
 
 .servico:hover{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.254);
+    transition: .5s;
 }
 
 .servico:nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
