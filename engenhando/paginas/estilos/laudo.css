@@ -98,8 +98,8 @@ main p{
 
 div#whatsapp{
     position: fixed;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     bottom: 20px;
     right: 20px;
 }
