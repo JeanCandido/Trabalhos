@@ -43,6 +43,7 @@ main{
     margin: auto;
     text-align: center;
     max-width: 800px;
+    font-size: 1.5em;
 }
 
 div#img-demo > img{
@@ -119,5 +120,12 @@ div#whatsapp > img{
     }
     main{
         margin: 10px;
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 400px) {
+    main{
+        font-size: 1em;
     }
 }
