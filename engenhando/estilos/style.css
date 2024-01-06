@@ -56,7 +56,7 @@ header > a:hover{
 }
 
 #iorc{
-    margin: auto;
+    width: 171px;
     background-color: #01C3BE;
     color: white;
     padding: 10px;
@@ -118,7 +118,7 @@ div#qs{
 }
 
 footer{
-    font-size: 1.1em;
+    font-size: .8em;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
