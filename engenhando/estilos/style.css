@@ -47,7 +47,7 @@ header > a{
 header > a:hover{
     color: #01C3BE;
     text-decoration: underline;
-}
+} 
 
 .button{
     display: block;
@@ -80,10 +80,10 @@ div#qs{
 
 .grid-serv{
     display: grid;
-    position: absolute;
-    top: 220px;
+    position: relative;
     grid-template-columns: repeat(3, 30%);
     grid-gap: 10px;
+    margin-top: 20px;
 }
 
 .servico {
@@ -114,6 +114,34 @@ div#qs{
 
 .servico > p{
     align-self: center;
+}
+
+footer{
+    font-size: 1.1em;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer#p-1{
+    right: 0;
+    margin-bottom: 5px;
+}
+
+footer#p-1{
+    left: 0;
+}
+
+footer > p > a{
+    color: black;
+}
+
+footer > p > a:hover{
+    color: black;
+}
+
+footer > p > a:active{
+    color: black;
 }
 
 @media (max-width: 800px) {

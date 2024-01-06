@@ -109,6 +109,34 @@ div#whatsapp > img{
     width: 100%;
 }
 
+footer{
+    font-size: .8em;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer#p-1{
+    right: 0;
+    margin-bottom: 5px;
+}
+
+footer#p-1{
+    left: 0;
+}
+
+footer > p > a{
+    color: black;
+}
+
+footer > p > a:hover{
+    color: black;
+}
+
+footer > p > a:active{
+    color: black;
+}
+
 @media (max-width: 800px) {
     header img{
         top: 30px;
