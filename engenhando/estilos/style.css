@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&family=Passion+One&family=Princess+Sofia&family=Sriracha&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -28,13 +32,17 @@ header{
     background-color: black;
     text-align: center;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-header > img{
+header > h1{
+    font-family: 'Bree Serif', serif;
     position: relative;
     background-color: black;
-    top: 2px;
-    width: 120px;
+    font-size: 1.5em;
 }
 
 header > a{
@@ -55,6 +63,7 @@ div#topo > p{
 
 div#topo > h1{
     margin-bottom: 10px;
+    font-family:'Cormorant', serif ;
 }
 
 .button{
@@ -80,6 +89,7 @@ div#topo > h1{
 
 div#qs{
     font-weight: bolder;
+    font-family:'Cormorant', serif ;
     color: #003777;
     height: 100%;
     text-align: center;
@@ -87,7 +97,7 @@ div#qs{
 }
 
 .grid-serv{
-    display: grid;
+    display: block;
     position: relative;
     z-index: 2;
     grid-template-columns: repeat(3, 30%);
@@ -97,16 +107,13 @@ div#qs{
 
 .servico {
     font-family: sans-serif;
-    display: grid;
     text-align: center;
     color: #003777;
     font-weight: 900;
     font-size: 150%;
     border: 1px solid rgba(0, 0, 0, 0.235);
     border-radius: 10px;
-    height: 30vh;
     padding: 10px;
-    
 }
 
 .servico:hover{
@@ -114,15 +121,12 @@ div#qs{
     transition: .5s;
 }
 
-.servico:nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
-.servico:nth-child(2) { grid-area: 1 / 2 / 2 / 3; }
-.servico:nth-child(3) { grid-area: 1 / 3 / 2 / 4; }
-.servico:nth-child(4) { grid-area: 2 / 1 / 3 / 2; }
-.servico:nth-child(5) { grid-area: 2 / 2 / 3 / 3; }
-.servico:nth-child(6) { grid-area: 2 / 3 / 3 / 4; }
-
 .servico > p{
     align-self: center;
+}
+
+.servico > img{
+    border-radius: 10px;
 }
 
 footer{
