@@ -1,6 +1,19 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Proza+Libre&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant:wght@300&family=Passion+One&family=Princess+Sofia&family=Sriracha&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    background-color: #1F1F1F;
+    color: white;
 }
 
 a{
@@ -12,35 +25,38 @@ body{
     overflow-x: hidden;
 }
 
+:root{
+    --font1: 'Bree Serif', serif;
+    --font2: 'Cormorant', serif;
+    --font3: 'Proza Libre', sans-serif;
+}
+
 header{
-    background-color: #003777;
+    background-color: black;
     text-align: center;
-    margin: 20px;
-    padding: 30px;
-    border-radius: 40px;
+    padding: 20px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
-header > img{
-    position: absolute;
-    left: 40px;
-    top: 40px;
-    width: 171px;
-}
-
-header > a{
+header > h1{
+    font-family: var(--font1);
     color: white;
-    font-weight: 900;
-    text-decoration: none;
-    padding: 5px;
+    position: relative;
+    background-color: black;
+    font-size: 1.5em;
 }
 
 header > a:hover{
     color: #01C3BE;
     text-decoration: underline;
-}
+} 
 
 main{
-    margin: auto;
+    margin:auto;
     text-align: center;
     max-width: 800px;
     font-size: 1.5em;
@@ -53,14 +69,17 @@ div#img-demo > img{
 
 main h1{
     text-align: center;
-    color: #003777;
+    color: white;
+    font-family: var(--font2);
     font-weight: 900;
     font-size: 2em;
-    margin: 0px 0px 10px 0px;
+    margin: 90px 0px 10px 0px;
 }
 
 main h2{
     color: #0e4685;
+    color: white;
+    font-family: var(--font2);
     font-weight: 800;
     font-size: 1.6em;
     margin: 0px 0px 10px 0px;
@@ -68,12 +87,16 @@ main h2{
 
 main h3{
     color: #003777;
-    font-weight: 600;
+    color: white;
+    font-family: var(--font1);
+    font-weight: 100;
     font-size: 1.3em;
 }
 
 main p{
     padding: 10px;
+    color: white;
+    font-family: var(--font3);
 }
 
 .button{
@@ -97,20 +120,66 @@ main p{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.448);
 }
 
-div#whatsapp{
-    position: fixed;
-    width: 80px;
-    height: 80px;
-    bottom: 20px;
-    right: 20px;
+.qs{
+    font-weight: bolder;
+    font-family:'Cormorant', serif ;
+    color: #003777;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
 }
 
-div#whatsapp > img{
-    width: 100%;
+.form{
+    background-color: #2F2F2F;
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80vw;
+    background-color: #2F2F2F;
+}
+
+form input{
+    border: none;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+form textarea{
+    border: none;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+form button{
+    border: none;
+    background-color: #5BC5AE;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+form label{
+    font-family: var(--font3);
+    background-color: #2F2F2F;
 }
 
 footer{
     font-size: .8em;
+    color: white;
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
@@ -126,15 +195,15 @@ footer#p-1{
 }
 
 footer > p > a{
-    color: black;
+    color: white;
 }
 
 footer > p > a:hover{
-    color: black;
+    color: white;
 }
 
 footer > p > a:active{
-    color: black;
+    color: white;
 }
 
 @media (max-width: 800px) {
