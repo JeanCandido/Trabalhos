@@ -42,6 +42,7 @@ header{
     background-color: black;
     text-align: center;
     padding: 20px;
+    padding-bottom: 30px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -53,13 +54,6 @@ header > h1{
     position: relative;
     background-color: black;
     font-size: 1.5em;
-}
-
-header > a{
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 5px;
 }
 
 header > a:hover{
@@ -103,7 +97,7 @@ div#topo > p{
 }
 
 div#topo > h1{
-    margin-bottom: 10px;
+    margin: 10px;
     font-family:var(--font2) ;
 }
 
@@ -139,7 +133,7 @@ div#qs{
 }
 
 main{
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .grid-serv{
@@ -168,6 +162,11 @@ main{
 .servico > img{
     border-radius: 10px;
     width: 80%;
+}
+
+iframe{
+    width: 80vw;
+    border-radius: 10px;
 }
 
 footer{
