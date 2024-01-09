@@ -189,15 +189,15 @@ footer#p-1{
 }
 
 footer > p > a{
-    color: black;
+    color: white;
 }
 
 footer > p > a:hover{
-    color: black;
+    color: white;
 }
 
 footer > p > a:active{
-    color: black;
+    color: white;
 }
 
 @media (max-width: 800px) {
