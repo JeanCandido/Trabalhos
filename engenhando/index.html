@@ -27,7 +27,7 @@
                     </div>
                 </a>
             </div>
-            <div id="qs">
+            <div class="qs">
                 <h1>SERVIÇOS</h1>
             </div>         
             <div class="grid-serv">
@@ -75,15 +75,22 @@
                 </a>
             </div>
         </div>
-        <form action="https://formsubmit.co/candidojean098@gmail.com" method="post">
-            <label>Nome</label>
-            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
-            <label>Email</label>
-            <input type="email" name="name" placeholder="Digite seu Email" autocomplete="off">
-            <label>Mensagens</label>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="qs">
+            <h1>Contate-nos</h1>
+        </div>
+        <section class="form">
+            <form action="https://formsubmit.co/candidojean098@gmail.com" method="post">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                <label>Email</label>
+                <input type="email" name="name" placeholder="Digite seu Email" autocomplete="off" required>
+                <label>Mensagens</label>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem"required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/engenhando/index.html">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
         <div id="iframe">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235236.31262042403!2d-47.06789464999995!3d-22.89243419999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c61de74b6325%3A0x17e53a6a2178c22a!2sCampinas%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1704759560710!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
