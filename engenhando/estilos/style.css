@@ -164,6 +164,11 @@ main{
     width: 80%;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+}
+
 iframe{
     display: block;
     margin: auto;
